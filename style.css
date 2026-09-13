@@ -84,3 +84,34 @@ h1 {
   color: white;
   font-weight: bold;
 }
+
+h2 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.info {
+  flex-grow: 2;
+}
+.empty-boxes {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px auto;
+}
+.box-n-text {
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+}
+.box-n-text p {
+  text-align: center;
+  font-size: 14px;
+}
+.box {
+  width: 130px;
+  height: 130px;
+  border: 4px solid #3882f6;
+  border-radius: 8px;
+}
